@@ -21,10 +21,12 @@ router.get('/:id', async (req, res) => {
     const category = await Category.findByPk(req.params.id, {
       include: Product,
     });
+
     if (!category) {
       res.status(404).json({ message: 'Category not found' });
       return;
     }
+
     res.status(200).json(category);
   } catch (err) {
     res.status(500).json(err);
@@ -49,11 +51,13 @@ router.put('/:id', async (req, res) => {
         id: req.params.id,
       },
     });
-    if (updatedCategory[0] === 0) {
+
+    if (!updatedCategory[0]) {
       res.status(404).json({ message: 'Category not found' });
       return;
     }
-    res.status(200).json({ message: 'Category updated' });
+
+    res.status(200).json(updatedCategory);
   } catch (err) {
     res.status(400).json(err);
   }
