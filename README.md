@@ -20,11 +20,11 @@ This is the back end for an e-commerce website, built using Express.js and Seque
 
 ## Learning Points
 
-- How to use flexbox.
-- How to create a linked navigation menu.
-- How to create forms.
-- How to use HTML semantic elements.
-- How to use class, id, element, and universal selectors in CSS.
+- How to use Heroku for deployment.
+- How to manage a database.
+- How to develop an API.
+- How to test and debug an API.
+- How to use sequelize seeds and migrations.
 
 <br>
 
@@ -102,7 +102,7 @@ This is the back end for an e-commerce website, built using Express.js and Seque
 
 ## Deployment
 
-Website URL: [Lake Tahoe](https://laineycreighton.github.io/landing-page/)
+Website URL: [https://guarded-shore-78319-332bbd6a7d3b.herokuapp.com/](https://guarded-shore-78319-332bbd6a7d3b.herokuapp.com/)
 
 [https://drive.google.com/file/d/11RDvqLfBvTYLvX-GZHfT0RUCq9jJ-ta7/view?usp=sharing](#) - A video demonstrating the functionality and usage of the e-commerce back end API.
 
