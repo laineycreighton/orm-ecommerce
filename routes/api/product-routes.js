@@ -65,7 +65,7 @@ router.post('/', async (req, res) => {
       product_name: "Football",
       price: 50.00,
       stock: 5,
-      tag_id: [1, 2, 3, 4],
+      tag_id: 5,
     });
 
     // If there are product tags, create associations in the ProductTag model
